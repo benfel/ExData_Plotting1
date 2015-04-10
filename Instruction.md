@@ -24,6 +24,6 @@ powernew$Voltage <- as.numeric(as.character(powernew$Voltage))
 powernew$Global_intensity <- as.numeric(as.character(powernew$Global_intensity))
 powernew$Sub_metering_1 <- as.numeric(as.character(powernew$Sub_metering_1))
 powernew$Sub_metering_2 <- as.numeric(as.character(powernew$Sub_metering_2))
-ppowernew$Date_Time <- strptime(as.character(powernew$Date_Time),format="%Y-%m-%d %H:%M:%S")
+powernew$Date_Time <- strptime(as.character(powernew$Date_Time),format="%Y-%m-%d %H:%M:%S")
 
 
